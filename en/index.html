@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  
+    <title>Scrollizy Extension - Surf Facebook more smoothly</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Utility to help Facebook smoother, scrolling pages are not laggy as before. Extension solves the problem: facebok lagging, facebook heavy machine, facebook consuming ram ...">
+    <link href="/assets/base.css" media="screen" rel="stylesheet" type="text/css" />
+
+    <style>
+    body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 13px;
+    }
+    .wrapper {
+      margin-bottom: 30px;
+    }
+    @media screen and (max-width: 37.4375em) and (min-width: 30em){
+        .summary-module:first-child {
+            margin-top: 10px;
+        }
+    }
+    @media only screen and (max-width: 29.9375em){
+        .summary-module:first-child {
+            margin-top: 10px;
+        }
+    }
+    </style>
+    <link rel="shortcut icon" href="/images/icon16.png" />
+
+    <script src="/assets/modernizr.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="profile">
+        <section class="profile-masthead" id="masthead">
+          <header class="profile-logo">
+            <div class="profile-logo-image">
+                <a href="/"><img alt="Scrollizy" src="/images/icon128.png" /></a>
+            </div>
+            <div class="profile-name">
+              <h1>Scrollizy <span style="color: #0ab3e5;">Extension</span></h1>
+            </div>
+          </header>
+          <aside class="profile-summary">
+            <div class="summary-location summary-module">
+                <a target="_blank" href="https://www.facebook.com/sharer.php?u=https://scrollizy.github.io" class="share-facebook">
+                    share your friends
+                </a>
+            </div>
+          </aside>
+        </section>
+
+        <section class="profile-content" id="content">
+
+          <div class="profile-description">
+            <p>
+                Surf Facebook more smoothly.
+            </p>
+          </div>
+
+          <article class="profile-menu" id="menu">
+            <nav class="menu-navigation">
+              <ul class="menu-navigation-list">
+                <li class="menu-navigation-list-item"><a href="#screenshot">Screenshot</a></li>
+                <li class="menu-navigation-list-item"><a href="#feature">Feature</a></li>
+                <li class="menu-navigation-list-item"><a href="#introduce">Instruction</a></li>
+                <li class="menu-navigation-list-item"><a href="/donate.html">Donation</a></li>
+              </ul>
+            </nav>
+
+            <nav class="menu-navigation">
+              <ul class="menu-navigation-list">
+                <li class="menu-navigation-list-item"><a href="https://chrome.google.com/webstore/detail/scrollizy/ajlnbpklmefagmhagncdbbgldfgkplkj" target="_blank" title="Google Chrome"><img src="/images/browser/chrome.png" style="width: 25px;"></a></li>
+                <li class="menu-navigation-list-item"><a href="https://addons.mozilla.org/vi/firefox/addon/scrollizy/" target="_blank" title="Mozilla Firefox"><img src="/images/browser/mozilla.png" style="width: 25px;"></a></li>
+                <li class="menu-navigation-list-item"><a href="https://chrome.google.com/webstore/detail/scrollizy/ajlnbpklmefagmhagncdbbgldfgkplkj" target="_blank" title="Opera"><img src="/images/browser/opera.png" style="width: 25px;"></a></li>
+                <li class="menu-navigation-list-item"><a href="https://chrome.google.com/webstore/detail/scrollizy/ajlnbpklmefagmhagncdbbgldfgkplkj" target="_blank" title="Coccoc"><img src="/images/browser/coccoc.png" style="width: 25px;"></a></li>
+                <li class="menu-navigation-list-item"><a href="https://chrome.google.com/webstore/detail/scrollizy/ajlnbpklmefagmhagncdbbgldfgkplkj" target="_blank" title="Edge"><img src="/images/browser/edge.png" style="width: 25px;"></a></li>
+              </ul>
+            </nav>
+
+            <div id="screenshot" class="menu-category">
+              <h3 class="menu-category-name">Screenshot</h3>
+              <p style="margin: 20px 0;">
+                <img src="/images/screenshot.png" alt="Scrrenshot" style="width: 100%;">
+              </p>
+              <p>
+                <a class="btn-view-full-menu" href="https://youtu.be/dGB5646GZO4">Watch video recording screen</a>
+              </p>
+              <!-- <ol class="menu-category-list">
+              <li class="menu-item">
+                <div class="menu-item-info">
+                  <h4 class="menu-item-name">seismic</h4>
+                  <span class="menu-item-price"><a href="https://github.com/square/seismic" target="_blank">GitHub</a></span>
+                  <p class="menu-item-description">Android device shake detection.</p>
+                </div>
+              </li>
+              <li class="menu-item">
+                <div class="menu-item-info">
+                  <h4 class="menu-item-name">sqldelight</h4>
+                  <span class="menu-item-price"><a href="https://github.com/square/sqldelight" target="_blank">GitHub</a></span>
+                  <p class="menu-item-description">Generates typesafe Kotlin APIs from SQL</p>
+                </div>
+              </li>
+              <li class="menu-item">
+                <div class="menu-item-info">
+                  <h4 class="menu-item-name">tape</h4>
+                  <span class="menu-item-price"><a href="http://square.github.io/tape/" target="_blank">Website</a> &middot; <a href="https://github.com/square/tape" target="_blank">GitHub</a></span>
+                  <p class="menu-item-description">A lightning fast, transactional, file-based FIFO for Android and Java.</p>
+                </div>
+              </li>
+              <li class="menu-item">
+                <div class="menu-item-info">
+                  <h4 class="menu-item-name">workflow</h4>
+                  <span class="menu-item-price"><a href="https://square.github.io/workflow" target="_blank">Website</a> &middot; <a href="https://github.com/square/workflow" target="_blank">GitHub</a></span>
+                  <p class="menu-item-description">A library for making composable state machines, and UIs driven by those state machines.</p>
+                </div>
+              </li>
+              </ol> -->
+            </div>
+
+            <div id="feature" class="menu-category">
+              <h3 class="menu-category-name">Feature</h3>
+              <ol class="menu-category-list">
+                <li class="menu-item">
+                  <div class="menu-item-info">
+                    <h4 class="menu-item-name">Unlimited page scrolling</h4>
+                    <p class="menu-item-description">Automatically remove the above posts to free up memory for the browser.<br>
+                        Scrolling is virtually unlimited without any lag issues.</p>
+                  </div>
+                </li>
+
+                <li class="menu-item">
+                  <div class="menu-item-info">
+                    <h4 class="menu-item-name">comming soon...</h4>
+                  </div>
+                </li>
+              </ol>
+            </div>
+
+            <div id="introduce" class="menu-category">
+              <h3 class="menu-category-name">Instruction</h3>
+              <p style="margin-top: 2.14286em; margin-bottom: 1.5em;">
+                Install the extension in your browser and do not need to do anything else, it automatically optimizes facebook when you use it.
+              </p>
+            </div>
+
+          </article>
+
+        </section>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <nav class="footer-navigation">
+        <ul class="footer-navigation-list">
+          <li class="footer-navigation-item"><a href="#">About</a></li>
+          <li class="footer-navigation-item"><a href="#">Team</a></li>
+          <li class="footer-navigation-item"><a href="#">Term of service</a></li>
+        </ul>
+        <p class="copyright">© 2019 Scrollizy. Powered by <a href="https://cronfy.com">Cronfy</a>.</p>
+      </nav>
+    </footer>
+
+  </body>
+</html>
